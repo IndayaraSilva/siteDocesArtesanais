@@ -1,0 +1,109 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 20vh;
+}
+
+#all {
+    width: 60vw;
+    height: 68vh;
+}
+
+.sobre {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+
+    background-color: #F2BBBB;
+    box-shadow: 0px 1px 8px #8C3E37;
+}
+
+#sobre{
+    font-weight: bolder;
+}
+
+.texto-sobre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vmax;
+    color: #8C3E37;
+    max-width: 80%;
+    text-align: center;
+}
+
+.imagem-topo {
+    background-color: #F2BBBB;
+    box-shadow: 0px -1px 10px #8C3E37;
+
+    width: 100%;
+    height: 20vh;
+
+    object-fit: cover;
+    /* object-position: 20% 10%; */
+}
+
+.beneficios {
+    width: 100%;
+    height: 26vh;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-beneficios {
+    margin-bottom: 3px;
+    list-style: none;
+}
+
+.grupo-molduras {
+    display: flex;
+    justify-content: center;
+}
+
+.moldura { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.99vmax;
+
+    width: 40vw;
+    height: 100%;
+
+    border-radius: 1vh;
+
+    background-color: #F2BBBB;
+    box-shadow: 0px 0px 5px #8C3E37;
+}
+
+.molduraTitulo{
+    text-align: center;
+    color: #8C3E37;
+    font-weight: bolder;
+}
+
+.molduraP{
+    text-align: center;
+    color: #8C3E37;
+
+    margin-bottom: 6px;
+    margin-left: 2px;
+}
+
+.imagem-baixo {
+    width: 19vw;
+    border-radius: 2vh;
+}

@@ -5,9 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="../stylecomum.css">
     <link rel="stylesheet" href="contatostyle.css">
 </head>
 <body>
+    <header>
+        <div class="headerContent">
+            <figure id="headerImage">
+                <img id="logoBase" src="../assets/logobase.png" alt="logo base social" width="70px">
+            </figure>
+            <nav>
+                <table id="headerTable">
+                    <tr id="table">
+                        <th class="itemTable"> <a class="itemTable" href="../home/home.html">Início</a></th>
+                        <th class="itemTable"> <a class="itemTable" href="../produtos/produtos.html">Produtos</a></th>
+                        <th class="itemTable"> <a class="itemTable" href="../contato/contato.html">Contato</a></th>
+                    </tr>
+                </table>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label class="textoInput" for="nomeESobrenome">Nome e Sobrenome:</label>
+            <input class="input" id="nomeESobrenome" type="text" name="nomeESobrenome" required>
+
+            <label class="textoInput" for="email">Email:</label>
+            <input class="input" id="email" type="email" name="email" required>
+
+            <label class="textoInput" for="telefone">Telefone:</label>
+            <input class="input" id="telefone" type="tel" name="telefone" required placeholder="(XX) XXXX-XXXX">
+
+            <label class="textoInput" for="mensagem">Como podemos te ajudar?</label>
+            <textarea id="mensagem" class="input" name="mensagem" required> </textarea>
+
+            <p class="textoInput">Como podemos te contatar?</p>
+            <label class="radio radioL" for="contatar">
+                <input class="radio radioL input" id="contatar" type="radio" name="contatar">
+                Email
+            </label> 
+
+            <label class="radio radioL" for="contatar">
+                <input class="radio radioL input" id="contatar" type="radio" name="contatar">
+                Telefone
+            </label>
+
+            <label class="radio radioL" for="contatar">
+                <input class="radio radioL input" id="contatar" type="radio" name="contatar">
+                Whatsapp
+            </label>
+
+            <label class="textoInput" for="horarioContato">Qual horário prefere?</label>
+            <select class="input" id="horarioContato" name="horarioContato" required>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+
+            <label class="textoInput" for="novidadesEmail">
+                <input id="novidadesEmail" type="checkbox" name="novidadesEmail" value="novidadesEmail">Gostaria de receber as novidades por email?
+            </label>
+
+            <input id="submit" type="submit" name="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+    <footer>
+        <figure id="footerImage">
+            <img id="logoBase2" src="../assets/logobase-branco.png" alt="logo base social" width="60px">
+        </figure>
+        <p> © Copyright Site de Bolos - 2022</p>
+    </footer>
+</body>
     
 </body>
 </html>
