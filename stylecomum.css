@@ -86,6 +86,7 @@ nav{
     height: 100%;
     width: 100%;
     text-decoration: none;
+    color: white;
 }
 
 .itemTable:visited{
@@ -103,7 +104,7 @@ footer {
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 18vh;
+    height: 14vh;
 
     display: flex;
     flex-direction: column;
@@ -112,10 +113,19 @@ footer {
 
     background-color: #8C3E37;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: 1vmax;
     color: white;
 
     box-shadow: 0px 0px 10px #8C3E37;
+}
+
+#logoBase2 {
+    width: 10vh;
+    /* width: 100%; */
+}
+
+#footerp{
+    font-size: 1vmax;
 }
 
 

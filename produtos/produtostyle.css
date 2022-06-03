@@ -6,8 +6,9 @@
 /* CONTEÚDO PRINCIPAL */
 
 main {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 68vh;
 
     display: flex;
     flex-direction: column;
@@ -35,6 +36,8 @@ main {
     justify-content: space-between;
     align-items: center;
 
+    transition: width 0.5s, height 0.5s;
+
     background-color: #F2937E;
 
     border-radius: 1vh;
@@ -47,6 +50,15 @@ main {
     box-shadow: -0px 0px 10px #8C3E37;
 
     box-sizing: border-box;
+}
+
+.moldura:hover {
+    width: 35vh;
+    height: 35vh;
+    
+    transition: width 0.5s, height 0.5s;
+
+    cursor: pointer;
 }
 
 .linha-branca {

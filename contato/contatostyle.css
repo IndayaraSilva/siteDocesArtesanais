@@ -5,7 +5,7 @@ main{
     justify-content: center;
 
     width: 100vw;
-    height: 68vh;
+    height: 72vh;
 
     overflow-y: auto;
 }
@@ -16,7 +16,7 @@ form{
     justify-content: start;
 
     width: 40%;
-    height: 68vh;
+    height: 72vh;
 
     text-align: left;
 }
